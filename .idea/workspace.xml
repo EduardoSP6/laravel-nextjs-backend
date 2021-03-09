@@ -17,6 +17,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/league/commonmark" />
@@ -167,7 +170,8 @@
       <workItem from="1614177068387" duration="641000" />
       <workItem from="1614916350214" duration="145000" />
       <workItem from="1615125965417" duration="162000" />
-      <workItem from="1615126147054" duration="12427000" />
+      <workItem from="1615126147054" duration="12505000" />
+      <workItem from="1615252604894" duration="6011000" />
     </task>
     <servers />
   </component>

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\CategoryRequest;
 use App\Models\Category;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class CategoryController extends Controller
 {
@@ -55,12 +56,12 @@ class CategoryController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param  string uuid
+     * @return \Illuminate\Http\JsonResponse
      */
-    public function edit($id)
+    public function edit($uuid)
     {
-        //
+        return Category::where('uuid', '=', $uuid)->firstOrFail();
     }
 
     /**
@@ -72,7 +73,8 @@ class CategoryController extends Controller
      */
     public function update(CategoryRequest $request, Category $category)
     {
-        $category = Category::update($request->all(), $category->id);
+        $category->fill($request->all());
+        $category->save();
         return response()->json($category);
     }
 
