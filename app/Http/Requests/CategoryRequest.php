@@ -26,6 +26,9 @@ class CategoryRequest extends FormRequest
         switch ($this->method())
         {
             case "PUT":
+                return [
+                    'name' => 'required|string|max:191|unique:categories,name,'.$this->get('name').',name',
+                ];
             case "POST":
                 return [
                     'name' => 'required|string|unique:categories|max:191'

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="71eed8c0-af7b-4996-bd2b-6e0a74ee8078" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/CategoryTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/CategoryTableSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +172,12 @@
       <workItem from="1614916350214" duration="145000" />
       <workItem from="1615125965417" duration="162000" />
       <workItem from="1615126147054" duration="12505000" />
-      <workItem from="1615252604894" duration="6011000" />
+      <workItem from="1615252604894" duration="7282000" />
+      <workItem from="1616029834981" duration="603000" />
+      <workItem from="1616065869499" duration="1712000" />
+      <workItem from="1616120177683" duration="1443000" />
+      <workItem from="1617314511943" duration="10000" />
+      <workItem from="1617314550040" duration="2152000" />
     </task>
     <servers />
   </component>

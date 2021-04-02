@@ -18,7 +18,7 @@ class CategoryTableSeeder extends Seeder
     {
         $faker = \Faker\Factory::create();
 
-        for ($i = 0; $i < 1000; $i++) {
+        for ($i = 0; $i < 100000; $i++) {
             Category::create([
                 'uuid' => Uuid::generate()->string,
                 'name' => $faker->word,
